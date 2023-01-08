@@ -26,7 +26,6 @@ Django==3.2.13
 django-cors-headers==3.11.0
 django-environ==0.8.1
 django-filter==21.1
-django-heroku==0.3.1
 django-money==2.1.1
 django-rest-knox==4.2.0
 djangorestframework==3.13.1
@@ -41,7 +40,6 @@ grpcio==1.46.3
 grpcio-status==1.46.3
 gTTS==2.3.0
 gunicorn==20.1.0
-heroku==0.1.4
 hvac==1.0.2
 hyperlink==21.0.0
 idna==3.3
