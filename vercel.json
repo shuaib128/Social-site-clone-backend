@@ -2,7 +2,8 @@
     "builds": [
         {
             "src": "social_site/wsgi.py",
-            "use": "@vercel/python"
+            "use": "@vercel/python",
+            "config": {"maxLambdaSize": "15bm", "runtime": "python3.9"}
         }
     ],
     "routes": [
