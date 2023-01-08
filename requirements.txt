@@ -68,6 +68,7 @@ pluggy==1.0.0
 proglog==0.1.10
 proto-plus==1.20.4
 protobuf==3.20.1
+psycopg2==2.9.3
 psycopg2-binary==2.9.3
 py==1.11.0
 py-moneyed==1.2
@@ -91,6 +92,7 @@ pyttsx==1.1
 pyttsx3==2.90
 pytube==12.1.0
 pytz==2022.1
+pywin32==305
 readtime==2.0.0
 requests==2.28.1
 rsa==4.8
