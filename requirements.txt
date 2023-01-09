@@ -79,7 +79,6 @@ pyhcl==0.4.4
 PyJWT==2.5.0
 pyOpenSSL==22.1.0
 pyparsing==3.0.9
-pypiwin32==223
 pyquery==1.4.3
 pytest==7.0.1
 pytest-django==4.5.0
