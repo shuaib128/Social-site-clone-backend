@@ -61,3 +61,4 @@ whitenoise==6.0.0
 zipp==3.8.0
 python-dotenv==0.20.0
 djangorestframework-simplejwt==5.2.1
+channels==3.0.5
