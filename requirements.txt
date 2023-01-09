@@ -84,7 +84,7 @@ pyquery==1.4.3
 pytest==7.0.1
 pytest-django==4.5.0
 python-dateutil==2.8.2
-python-dotenv==0.21.0
+python-dotenv==0.20.0
 python-engineio==4.3.4
 pyttsx==1.1
 pyttsx3==2.90
