@@ -96,7 +96,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'social_site.wsgi.application'
-# ASGI_APPLICATION = "social_site.routing.application"
+ASGI_APPLICATION = "social_site.routing.application"
 
 CHANNEL_LAYERS = {
     "default": {

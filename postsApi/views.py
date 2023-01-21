@@ -96,7 +96,6 @@ class PostCreateView(APIView):
                 break
         except Exception as e:
             print(e)
-        print(images_id)
 
         # create new post objects
         post = Post()
