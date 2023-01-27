@@ -114,12 +114,13 @@ CHANNEL_LAYERS = {
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+#Name for data base validate-database
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'XcEPiMfOcaqVOeZcZpTd',
+        'PASSWORD': '06MbDr4ocBtEZS8IFEGY',
         'HOST': 'containers-us-west-114.railway.app',
         'PORT': '5529',
     }
