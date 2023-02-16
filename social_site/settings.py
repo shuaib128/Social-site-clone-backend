@@ -96,8 +96,12 @@ ASGI_APPLICATION = "social_site.routing.application"
 
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels.layers.InMemoryChannelLayer"
-    }
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("https://web-production-30f1.up.railway.app/", 6379)],
+        },
+        "ROUTING": "myapp.routing.channel_routing",
+    },
 }
 
 
