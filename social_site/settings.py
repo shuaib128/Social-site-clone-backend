@@ -100,7 +100,7 @@ CHANNEL_LAYERS = {
         "CONFIG": {
             "hosts": [("https://web-production-30f1.up.railway.app/", 6379)],
         },
-        "ROUTING": "myapp.routing.channel_routing",
+        "ROUTING": "social_site.routing.application",
     },
 }
 
